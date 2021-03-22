@@ -129,6 +129,8 @@ def compress(filepath, codingTable, filename):
         fout.write(bitarray(littleEndianString))
         fout.write(bitarray(fileString))
 
+def decode(filepath, codingTable, filename):
+
 
 if __name__ == "__main__":
     freqTable = do_statistics("./input/small.txt")
